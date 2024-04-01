@@ -1,6 +1,6 @@
 from DBconnection import DBconnection
 from LoginDetails import LoginDetails
-import hashlib, string, secrets
+import hashlib, secrets
 
 class LD_mgr:
     def create_user(self, user:LoginDetails):
